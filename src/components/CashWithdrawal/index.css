@@ -1,0 +1,95 @@
+.bg-container {
+    background-color: #0d1619;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  
+  .card-1 {
+    background-color: #514300;
+    border-radius: 15px;
+    height: 75%;
+    width: 50%;
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  
+  .card-profile {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .heading-s {
+    border-radius: 100%;
+    background-color: #c7d2fe;
+    font-family: 'Roboto';
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  
+  .name {
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .balance-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .your-balance {
+    color: yellow;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  
+  .balance-count {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  
+  .rupees {
+    color: lime;
+    font-family: 'Roboto';
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 20px;
+  }
+  
+  .with-draw {
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  
+  .sum-in-rupees {
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  .items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 30px;
+  }
