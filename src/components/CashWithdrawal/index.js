@@ -7,20 +7,20 @@ class CashWithdrawal extends Component {
 
   deleteAmount = value => {
     const {amount} = this.state
-    if (amount >= 500) {
-      this.setState(prevState => ({amount: prevState.amount - value}))
-    } else if (amount >= 200 && amount < 500) {
-      if (value !== 500) {
-        this.setState(prevState => ({amount: prevState.amount - value}))
+    if (amount >= 50 && amount < 100) {
+      if (value === 50) {
+        this.setState(prevState => ({amount:prevState.amount-value}))
       }
     } else if (amount >= 100 && amount < 200) {
-      if (value === 100 || value === 50) {
-        this.setState(prevState => ({amount: prevState.amount - value}))
+      if(value === 100 || value === 50) {
+        this.setState(prevState => ({amount:prevState.amount-value}))
       }
-    } else if (amount >= 50 && amount < 100) {
-      if (value === 50) {
-        this.setState(prevState => ({amount: prevState.amount - value}))
+    } else if (amount >= 200 && amount < 500) {
+      if(value !== 100) {
+        this.setState(prevState => ({amount:prevState.amount-value}))
       }
+    } else if(amount >= 500) {
+      this.setState(prevState => ({amount:prevState.amount - value}))
     }
   }
 
